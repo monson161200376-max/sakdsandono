@@ -1,0 +1,4875 @@
+[
+{
+"id": "part1",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "Chapter1",
+"text": "익숙한 천장이다.",
+"next":"talk1"
+},
+{
+"id": "talk1",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "player",
+"text": "아 잣 같다",
+"next":"talk2"
+},
+{
+"id": "talk2",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "끝날 기미가 안 보이는 수행평가, 얼마남지 않은 시험, 더럽게 많은 숙제들",
+"next":"talk3"
+},
+{
+"id": "talk3",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "충분한 수면시간을 확보하기도 어려운 현재 상황에서 아침 일찍 일어나는 것은 고역이다",
+"next":"talk4"
+},
+{
+"id": "talk4",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "(밖에서는 찬송가가 들려온다)",
+"next":"talk5"
+},
+{
+"id": "talk5",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "내가 다니는 곳이 기독교 학교여서 아침마다 찬송가가 틀어진다",
+"next":"talk6"
+},
+{
+"id": "talk6",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "처음 다녔을 때는 강제로 깨우면서 들리기에 상당히 불쾌했지만 이제는 점점 무감각해진다",
+"next":"talk7"
+},
+{
+"id": "talk7",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "그것과 별개로 지금 내 몸은 어제 수행평가하느라 밤을 세운 여파로 침대와 한 몸이 되었다",
+"choices": [
+{
+"id": "wake_up",
+"label": "그래도 일어난다",
+"value": "wake_up",
+"next": "part2_wake"
+},
+{
+"id": "sleep_more",
+"label": "다시 누워 더 잔다",
+"value": "sleep_more",
+"next": "part1_sleep"
+}
+]
+},
+
+{
+"id": "part1_sleep",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "어차피 찬송가가 밖에 나오는 시점에서 시간은 어느정도 지났다는 것이다",
+"next":"talk8"
+},
+{
+"id": "talk8",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "이는 찐 골든타임까지는 아직 좀 남았다는 것",
+"next":"talk9"
+},
+{
+"id": "talk9",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "7시전까지만 나가면 되는데 머....스...아.....ㅏ..ㄱ.....",
+"next":"talk10"
+},
+{
+"id": "talk10",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "(다시 깊은 잠에 빠져든다)",
+"next":"talk11"
+},
+{
+"id": "talk11",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "...........",
+"next":"talk12"
+},
+{
+"id": "talk12",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "???",
+"text": "{player}! 일어나라!",
+"next":"talk13"
+},
+{
+"id": "talk13",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "사감쌤의 목소리다",
+"next":"talk14"
+},
+{
+"id": "talk14",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "선생님은 찬송가가 끝나면 방 전체를 대상으로 한 번, 이후 개별적으로 총 두 번 깨워주신다",
+"next":"talk15"
+},
+{
+"id": "talk15",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "지금 들린거 보면은 이제는 진짜 꽤 시간이 지났다는 것이다",
+"next":"talk15-1"
+},
+{
+"id": "talk15-1",
+"act": "school",
+"background": "dorm_room_morning",
+"tone": "heavy",
+"speaker": "",
+"text": "그래 슬슬 일어날때다",
+"next": "part2_late wake"
+},
+
+{
+"id": "part2_wake",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "player",
+"text": "에휴",
+"next":"talk17"
+},
+
+{
+"id": "talk17",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "피곤에 찌든 몸둥아리를 일으켜 세워본다",
+"next":"talk18"
+},
+
+{
+"id": "talk18",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "학교 침대 매트리스가 너무 푹신해서 일어나는 것도 일이다",
+"next":"talk19"
+},
+
+{
+"id": "talk19",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "그래도 안 일어나서 한 소리 듣는 것 보다는 나을 것이다",
+"next":"talk20"
+},
+
+{
+"id": "talk20",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "(빠직)",
+"next":"talk21"
+},
+
+{
+"id": "talk21",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "player",
+"text": "아ㅗㅇ어오오ㅗ",
+"next":"talk22"
+},
+
+{
+"id": "talk22",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "구조가 구조인지라 주의를 주지 않으면 별의 별곳에 발이 찍힌다",
+"next":"talk23"
+},
+
+{
+"id": "talk23",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "아 진짜 존시나 아프다",
+"next":"talk24"
+},
+{
+"id": "talk24",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "무튼 이건 사소한 헤프닝이다",
+"next":"talk25"
+},
+
+{
+"id": "talk25",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "이제 무엇을 하냐인데.......",
+"choices": [
+{
+"id": "wash",
+"label": "일어났으면 세수부터 해야지",
+"value": "wash",
+"next": "part3_wash"
+},
+{
+"id": "skip_wash",
+"label": "귀찮다 그냥 나가자",
+"value": "skip_wash",
+"next": "part3_skip"
+}
+]
+},
+
+
+{
+"id": "part2_late wake",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "player",
+"text": "에휴",
+"next":"talk17-1"
+},
+
+{
+"id": "talk17-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "피곤에 찌든 몸둥아리를 일으켜 세워본다",
+"next":"talk18-1"
+},
+
+{
+"id": "talk18-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "학교 침대 매트리스가 너무 푹신해서 이대로 파묻혀 안 나가고 싶다",
+"next":"talk19-1"
+},
+
+{
+"id": "talk19-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "하지만 일어나야 하는 상황을 받아들일 수 밖에 없다. 들이받을 수는 없으니까",
+"next":"talk20-1"
+},
+
+{
+"id": "talk20-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "(빠직)",
+"next":"talk21-1"
+},
+
+{
+"id": "talk21-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "player",
+"text": "아ㅗㅇ어오오ㅗ",
+"next":"talk22-1"
+},
+
+{
+"id": "talk22-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "구조가 구조인지라 주의를 주지 않으면 별의 별곳에 발이 찍힌다",
+"next":"talk23-1"
+},
+
+{
+"id": "talk23-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "아침부터 서럽네 진짜",
+"next":"talk24-1"
+},
+{
+"id": "talk24-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "무튼 이건 사소한 헤프닝이다",
+"next":"talk25-1"
+},
+
+{
+"id": "talk25-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "이제 무엇을 하냐인데.......",
+"choices": [
+{
+"id": "wash",
+"label": "일어났으면 세수부터 해야지",
+"value": "wash",
+"next": "part3_wash_late"
+},
+{
+"id": "skip_wash",
+"label": "귀찮다 그냥 나가자",
+"value": "skip_wash",
+"next": "part3_skip_late"
+}
+]
+},
+
+{
+"id": "part3_wash",
+"act": "school",
+"background": "washroom",
+"tone": "warm",
+"speaker": "",
+"text": "시간도 여유있는데 세수를 안 할 이유는 없다",
+"next":"talk26"
+},
+
+{
+"id": "talk26",
+"act": "school",
+"background": "washroom",
+"tone": "warm",
+"speaker": "",
+"text": "잠도 어느정도 깨워주는 좋은 생산활동이다",
+"next":"talk27"
+},
+
+{
+"id": "talk27",
+"act": "school",
+"background": "washroom",
+"tone": "warm",
+"speaker": "",
+"text": "귀찮긴 하지만",
+"next":"part4"
+},
+
+{
+"id": "part3_wash_late",
+"act": "school",
+"background": "washroom",
+"tone": "warm",
+"speaker": "",
+"text": "그렇게 시간이 많은 건 아니지만 그래도 전투 세수를 하면 어느정도 맞출 수 있을 것 같다",
+"next": "talk28"
+},
+
+{
+"id": "talk28",
+"act": "school",
+"background": "washroom",
+"tone": "warm",
+"speaker": "",
+"text": "빠르게 끝낸다",
+"next":"part4"
+},
+
+{
+"id": "part3_skip",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "오늘 하루 안 한다 해서 죽는 것도 아니다",
+"next":"talk29"
+},
+
+{
+"id": "talk29",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "내일의 나는 세수를 할테니 오늘은 빠르게 나가자",
+"next":"talk30"
+},
+
+{
+"id": "talk30",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "..........아마 할 것이다",
+"next":"part4-1"
+},
+
+{
+"id": "part3_skip_late",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "시간이 없는데 세수를 한다는 건 둘 중 하나이다",
+"next":"talk28-1"
+},
+
+{
+"id": "talk28-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "자기 외모 관리에 존시나 철저한 사람이던가 아니면 그냥 늦겠다는 것이다",
+"next":"talk29-1"
+},
+
+{
+"id": "talk29-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "하지만 난 둘 다 아니다",
+"next":"talk30-1"
+},
+
+{
+"id": "talk30-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "player",
+"text": "귀찮아",
+"next":"part4-2"
+},
+
+{
+"id": "part4",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "오늘의 하나의 큰 과제를 해결한 느낌이다",
+"next":"talk31"
+},
+
+{
+"id": "talk31",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "이제 교복을 입고 나가면 된다",
+"next":"part4-A"
+},
+
+
+{
+"id": "part4-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "이제 해야 할 것은 교복 입고 나가는 것 밖에 없다",
+"next":"part4-A"
+},
+
+{
+"id": "part4-2",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "마지막 과업 교복 입기다",
+"next":"talk27-1"
+},
+{
+"id": "talk27-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "아마 입고나면은 그래도 7시전에는 나갈 수 있을 것 같다",
+"next":"part4-A"
+},
+
+{
+"id": "part4-A",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "체육복을 입고 나가면 좋겠지만 내가 다니는 곳은 체육복은 체육시간에만 입어야 한다",
+"next":"talk32"
+},
+
+{
+"id": "talk32",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "교복이 불편하긴 한데 항의해봤자 의미 없는걸 알기에 그냥 교복을 입는 편이다",
+"choices": [
+{
+"id": "uniform_normal",
+"label": "정석대로 입는다(당신이 아는 단추까지 잠그는 교복 세팅이다. 안에는 간단한 티를 입는다)",
+"value": "normal",
+"next": "part5-B"
+},
+{
+"id": "uniform_casual",
+"label": "대충 입는다",
+"value": "casual",
+"next": "part5-A"
+}
+]
+},
+
+{
+"id": "part5-B",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "손에 집히는 티를 입어 나갈준비를 한다. 검은 티인줄 알고 집은 것이 ROKA티였지만 뭐 안 보일 것이니 상관없을거다",
+"next":"part5"
+},
+
+{
+"id": "part5-A",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "뭐 바지만 교복이면 되겠지",
+"next":"talk32-1"
+},
+
+{
+"id": "talk32-1",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "상의는 대충 걸치거나 학교에서준 후드집업 같은걸 입으면 가려질거다",
+"next":"talk32-2"
+},
+
+{
+"id": "talk32-2",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "눈에 보이는걸 집고 입어서 가면 될거다",
+"next":"talk32-3"
+},
+
+{
+"id": "talk32-3",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "그냥 검은 티인줄 알았는데 ROKA티였다. 글자가 뒤에 있으니 상관은 없을 것이다",
+"next":"part5"
+},
+
+{
+"id": "part5",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "학교 짐은 대충 싸놨다",
+"next":"talk33"
+},
+
+{
+"id": "talk33",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "충전 해놓은 패드를 가방에 넣고 에어팟과 핸드폰을 챙긴다",
+"next":"talk34"
+},
+
+{
+"id": "talk34",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "평소에 들고 다니는 짐이 많아 학교에서 준 에코백을 들고 다닌다",
+"next":"talk1-5"
+},
+
+{
+"id": "talk1-5",
+"act": "school",
+"background": "dorm_room",
+"tone": "warm",
+"speaker": "",
+"text": "이러면 내 모닝 루틴이 끝난다",
+"choices": [
+{
+"id": "classroom",
+"label": "교실로 간다",
+"value": "classroom",
+"next": "part6_classroom"
+},
+{
+"id": "studyroom",
+"label": "자습실로 이동한다",
+"value": "studyroom",
+"next": "part6_studyroom"
+}
+]
+},
+
+{
+"id": "part6_classroom",
+"act": "school",
+"background": "dorm_room_hallway",
+"tone": "warm",
+"speaker": "",
+"text": "일단 가지고 있는 짐을 내려놓기 위해 교실로 간다",
+"next":"talk33-1"
+},
+
+{
+"id": "talk33-1",
+"act": "school",
+"background": "dorm_room_hallway",
+"tone": "warm",
+"speaker": "",
+"text": "안 그래도 수행평가 때문에 짐이 추가로 늘어났기에 들고 다녀봤자 짐짝이다",
+"next":"talk34-1"
+},
+
+{
+"id": "talk34-1",
+"act": "school",
+"background": "dorm_room_hallway",
+"tone": "warm",
+"speaker": "",
+"text": "아침에 자습실로 이동해야하긴 하지만 그래도 교실에 한 번 들리는게 나을 것 같다",
+"next":"part6_classroom-A"
+},
+
+{
+"id": "part6_classroom-A",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "Chapter2",
+"text": "가진 짐을 푼다",
+"next":"talk35"
+},
+
+{
+"id": "talk35",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "안 그래도 더럽게 무거웠던 참인데 내려놓으니 한결 낫다",
+"next":"talk36"
+},
+
+{
+"id": "talk36",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "이제 나에게는 두 가지 선택지가 있다",
+"next":"talk37"
+},
+
+{
+"id": "talk37",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "아침을 먹거나, 잠을 자거나",
+"next":"talk38"
+},
+
+{
+"id": "talk38",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "원래는 무조건적으로 아침을 먹었으나 요새는 잠이 더 중요하다는 것을 깨달았다",
+"next":"talk39"
+},
+
+{
+"id": "talk39",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "아침 메뉴도 무난하다보니 더욱 고민된다",
+"choices": [
+{
+"id": "eat_breakfast",
+"label": "아침은 중요하니까(밥을 먹는다)",
+"value": "eat",
+"next": "talk40"
+},
+{
+"id": "sleep_morning",
+"label": "밥 보단 잠이지!(잔다)",
+"value": "sleep",
+"next": "talk40-1"
+}
+]
+},
+
+{
+"id": "talk40",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "그래도 한국인은 밥심이지",
+"next":"talk41"
+},
+
+{
+"id": "talk41",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "입에 들어갈 수만 있으면 되지 뭐",
+"next":"talk42"
+},
+
+{
+"id": "talk42",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "(그렇게 식당에 가서 밥을 먹었다)",
+"next":"part7_classroom"
+},
+
+{
+"id": "talk40-1",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "먹기 위해 살거나 살기 위해 먹가나 하는 논쟁이 있지만 잠이 최우선이다",
+"next":"talk41-1"
+},
+
+{
+"id": "talk41-1",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"text": "괜히 꿀잠이라는 단어가 있는게 아니랄까",
+"next":"talk42-1"
+},
+
+{
+"id": "talk42-1",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "player",
+"text": "ㅈ...ㅣ...ㄴ....ㅉ..zzzzzzzz",
+"next":"talk43-1"
+},
+
+{
+"id": "talk43-1",
+"act": "school",
+"background": "classroom",
+"tone": "heavy",
+"speaker": "",
+"text": "(눈을 감은 당신은 어느 순간부터 의식을 잃고 잠에 빠졌다)",
+"next":"part8"
+},
+
+{
+"id": "part6_studyroom",
+"act": "school",
+"background": "dorm_room_hallway",
+"tone": "warm",
+"speaker": "",
+"text": "어차피 아침에도 자습이 있는 me친 학교 이기에 왔다갔다 하는 것 보다는 그냥 바로 가는게 나을 것 같다",
+"next":"part6_studyroom-A"
+},
+
+{
+"id": "part6_studyroom-A",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "Chapter2",
+"text": "가진 짐을 푼다",
+"next":"talk35-1"
+},
+
+{
+"id": "talk35-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "안 그래도 더럽게 무거웠던 참인데 내려놓으니 한결 낫다",
+"next":"talk36-1"
+},
+
+{
+"id": "talk36-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "이제 나에게는 두 가지 선택지가 있다",
+"next":"talk37-1"
+},
+
+{
+"id": "talk37-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "아침을 먹거나, 잠을 자거나",
+"next":"talk38-1"
+},
+
+{
+"id": "talk38-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "원래는 무조건적으로 아침을 먹었으나 요새는 잠이 더 중요하다는 것을 깨달았다",
+"next":"talk39-1"
+},
+
+{
+"id": "talk39-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "아침 메뉴도 무난하다보니 더욱 고민된다",
+"choices": [
+{
+"id": "eat_breakfast",
+"label": "아침은 중요하니까(밥을 먹는다)",
+"value": "eat",
+"next": "talk40-2"
+},
+{
+"id": "sleep_morning",
+"label": "밥 보단 잠이지!(잔다)",
+"value": "sleep",
+"next": "talk40-3"
+}
+]
+},
+
+
+{
+"id": "talk40-2",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "그래도 한국인은 밥심이지",
+"next":"talk41-2"
+},
+
+{
+"id": "talk41-2",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "입에 들어갈 수만 있으면 되지 뭐",
+"next":"talk42-2"
+},
+
+{
+"id": "talk42-2",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "(그렇게 식당에 가서 밥을 먹었다)",
+"next":"part7_studyroom"
+},
+
+{
+"id": "talk40-3",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "먹기 위해 살거나 살기 위해 먹가나 하는 논쟁이 있지만 잠이 최우선이다",
+"next":"talk41-3"
+},
+
+{
+"id": "talk41-3",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"text": "괜히 꿀잠이라는 단어가 있는게 아니랄까",
+"next":"talk42-3"
+},
+
+
+{
+"id": "talk42-3",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "player",
+"text": "ㅈ...ㅣ...ㄴ....ㅉ..zzzzzzzz",
+"next":"talk43-3"
+},
+
+{
+"id": "talk43-3",
+"act": "school",
+"background": "study_room",
+"tone": "heavy",
+"speaker": "",
+"text": "(눈을 감은 당신은 어느 순간부터 의식을 잃고 잠에 빠졌다)",
+"next":"part8-1"
+},
+
+{
+"id": "part7_classroom",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "꽤나 만족스러운 식사였다",
+"next": "talk44"
+},
+
+{
+"id": "talk44",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "메뉴 자체는 무난했지만 맛은 생각 이상이었달까",
+"next": "talk45"
+},
+
+{
+"id": "talk45",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "나중에 또 나오면 좋겠다",
+"next": "part7_classroom_2"
+},
+
+{
+"id": "part7_classroom_2",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "(까톡)",
+"next": "part7_classroom_3"
+},
+
+{
+"id": "part7_classroom_3",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "player",
+"characters": [],
+"text": "음?",
+"next": "part7_classroom_4"
+},
+
+{
+"id": "part7_classroom_4",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "메시지가 왔다",
+"next": "talk46"
+},
+
+{
+"id": "talk46",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "누군가 단톡에 설문조사를 올렸나보다",
+"next": "part7_classroom_5"
+},
+
+{
+"id": "part7_classroom_5",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "수행평가 기간이다보니 다들 설문조사를 만들고 배포하는 모양이다",
+"next": "talk47"
+},
+
+{
+"id": "talk47",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "뭐... 나도 잘 쓰고 있다.",
+"next": "part7_classroom_6"
+},
+
+{
+"id": "part7_classroom_6",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "어제 밤을 지세운 이유도 이 때문이기도 하고.",
+"next": "part7_classroom_7"
+},
+
+{
+"id": "part7_classroom_7",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "player",
+"characters": [],
+"text": "내용이나 봐볼까.",
+"next": "part7_classroom_8"
+},
+
+{
+"id": "part7_classroom_8",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "(계급 문화가......)",
+"next": "talk48"
+},
+
+{
+"id": "talk48",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "진로가 군인 쪽인 친구가 올린 것이다",
+"next": "part7_classroom_9"
+},
+
+{
+"id": "part7_classroom_9",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "성격도 좋아서 꽤 친한 사이이다",
+"choices": [
+{
+"id": "survey_now_classroom",
+"label": "얼마 안 걸릴테니 바로 하자",
+"value": "survey_now",
+"next": "part7_classroom_now"
+},
+{
+"id": "survey_later_classroom",
+"label": "내 할 일도 바쁘다 나중에 해줄게",
+"value": "survey_later",
+"next": "part7_classroom_later"
+}
+]
+},
+
+{
+"id": "part7_classroom_now",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "잠깐이면 될 거 같은데 빠르게 하자.",
+"next": "part7_classroom_now2"
+},
+
+{
+"id": "part7_classroom_now2",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "(생각보다는 조금 더 걸렸다)",
+"next": "part9"
+},
+
+{
+"id": "part7_classroom_later",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "나도 지금 하는 수행평가가 있다.",
+"next": "part7_classroom_later2"
+},
+
+{
+"id": "part7_classroom_later2",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "오늘 안에 만들어서 내야하는데......",
+"next": "part7_classroom_later3"
+},
+
+{
+"id": "part7_classroom_later3",
+"act": "school",
+"background": "classroom",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "어차피 짧게 걸릴 거 같은 거 나중에 해야지.",
+"next": "part9"
+},
+
+
+{
+"id": "part7_studyroom",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "꽤나 만족스러운 식사였다",
+"next": "talk44-1"
+},
+
+{
+"id": "talk44-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "메뉴 자체는 무난했지만 맛은 생각 이상이었달까",
+"next": "talk45-1"
+},
+
+{
+"id": "talk45-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "나중에 또 나오면 좋겠다",
+"next": "part7_studyroom_2"
+},
+
+{
+"id": "part7_studyroom_2",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "(까톡)",
+"next": "part7_studyroom_3"
+},
+
+{
+"id": "part7_studyroom_3",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "player",
+"characters": [],
+"text": "음?",
+"next": "part7_studyroom_4"
+},
+
+{
+"id": "part7_studyroom_4",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "메시지가 왔다",
+"next": "talk46-1"
+},
+
+{
+"id": "talk46-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "누군가 단톡에 설문조사를 올렸나보다",
+"next": "part7_studyroom_5"
+},
+
+{
+"id": "part7_studyroom_5",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "수행평가 기간이다보니 다들 설문조사를 만들고 배포하는 모양이다",
+"next": "talk47-1"
+},
+
+{
+"id": "talk47-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "뭐... 나도 잘 쓰고 있다.",
+"next": "part7_studyroom_6"
+},
+
+{
+"id": "part7_studyroom_6",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "어제 밤을 지세운 이유도 이 때문이기도 하고.",
+"next": "part7_studyroom_7"
+},
+
+{
+"id": "part7_studyroom_7",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "player",
+"characters": [],
+"text": "내용이나 봐볼까.",
+"next": "part7_studyroom_8"
+},
+
+{
+"id": "part7_studyroom_8",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "(계급 문화가......)",
+"next": "talk48-1"
+},
+
+{
+"id": "talk48-1",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "진로가 군인 쪽인 친구가 올린 것이다",
+"next": "part7_studyroom_9"
+},
+
+{
+"id": "part7_studyroom_9",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "성격도 좋아서 꽤 친한 사이이다",
+"choices": [
+{
+"id": "survey_now_studyroom",
+"label": "얼마 안 걸릴테니 바로 하자",
+"value": "survey_now",
+"next": "part7_studyroom_now"
+},
+{
+"id": "survey_later_studyroom",
+"label": "내 할 일도 바쁘다 나중에 해줄게",
+"value": "survey_later",
+"next": "part7_studyroom_later"
+}
+]
+},
+
+{
+"id": "part7_studyroom_now",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "잠깐이면 될 거 같은데 빠르게 하자.",
+"next": "part7_studyroom_now2"
+},
+
+{
+"id": "part7_studyroom_now2",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "(생각보다는 조금 더 걸렸다)",
+"next": "part9"
+},
+
+{
+"id": "part7_studyroom_later",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "나도 지금 하는 수행평가가 있다.",
+"next": "part7_studyroom_later2"
+},
+
+{
+"id": "part7_studyroom_later2",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "오늘 안에 만들어서 내야하는데......",
+"next": "part7_studyroom_later3"
+},
+
+{
+"id": "part7_studyroom_later3",
+"act": "school",
+"background": "study_room",
+"tone": "warm",
+"speaker": "",
+"characters": [],
+"text": "어차피 짧게 걸릴 거 같은 거 나중에 해야지.",
+"next": "part10-1"
+},
+
+{
+"id": "part8",
+"act": "school",
+"background": "classroom",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "시간이 얼마나 지났는지 모르겠다",
+"next": "part8_2"
+},
+
+{
+"id": "part8_2",
+"act": "school",
+"background": "classroom",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "아직 졸리긴 하지만 계속 자고 있을 순 없는 노릇",
+"next": "part8_3"
+},
+
+{
+"id": "part8_3",
+"act": "school",
+"background": "classroom",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "최근들어 목건강도 안 좋아졌는데 이 때문인지 엎드려서 자는 것도 잘 안된다",
+"next": "part8_4"
+},
+
+{
+"id": "part8_4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [],
+"text": "하아............",
+"next": "part8_5"
+},
+
+{
+"id": "part8_5",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "늘 하듯이 핸드폰을 확인한다",
+"next": "talk49"
+},
+
+{
+"id": "talk49",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "다들 수행평가 시즌이라고 해서 그런지 단톡에 뭐가 자꾸 올라온다",
+"next": "part8_6"
+},
+
+{
+"id": "part8_6",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "보나마나 설문조사일거 같은데 느껴진다. 애들이 주로 사용하는 방법이 이것 말고는 없으니",
+"choices": [
+{
+"id": "sleep_survey_now",
+"label": "얼마 안 걸릴테니 바로 하자",
+"value": "survey_now",
+"next": "part8_now"
+},
+{
+"id": "sleep_survey_later",
+"label": "내 할 일도 바쁘다 나중에 해줄게",
+"value": "survey_later",
+"next": "part8_later"
+}
+]
+},
+
+{
+"id": "part8_now",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "잠깐이면 될거 같은데 빠르게 하자",
+"next": "part8_now2"
+},
+
+{
+"id": "part8_now2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "(잠깐 잔 사이에 설문조사가 꽤 많이 쌓였지만 생각보다는 빠르게 끝낸다)",
+"next": "part8_now3"
+},
+
+{
+"id": "part8_now3",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [],
+"text": "왜 이리 많아",
+"next": "part9"
+},
+
+{
+"id": "part8_later",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "나도 지금 하는 수행평가가 있다.",
+"next": "part8_later-1"
+},
+
+{
+"id": "part8_later-1",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "오늘 안에 만들어서 내야하는데......",
+"next": "part8_later-2"
+},
+
+{
+"id": "part8_later-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "어차피 짧게 걸릴 거 같은 거 나중에 해야지.",
+"next": "part9"
+},
+
+
+{
+"id": "part8-1",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "시간이 얼마나 지났는지 모르겠다",
+"next": "part8_2-1"
+},
+
+{
+"id": "part8_2-1",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "아직 졸리긴 하지만 계속 자고 있을 순 없는 노릇",
+"next": "part8_3-1"
+},
+
+{
+"id": "part8_3-1",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "최근들어 목건강도 안 좋아졌는데 이 때문인지 엎드려서 자는 것도 잘 안된다",
+"next": "part8_4-1"
+},
+
+{
+"id": "part8_4-1",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "player",
+"characters": [],
+"text": "하아............",
+"next": "part8_5-1"
+},
+
+{
+"id": "part8_5-1",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "늘 하듯이 핸드폰을 확인한다",
+"next": "talk49-1"
+},
+
+{
+"id": "talk49-1",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "다들 수행평가 시즌이라고 해서 그런지 단톡에 뭐가 자꾸 올라온다",
+"next": "part8_6-1"
+},
+
+{
+"id": "part8_6-1",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "보나마나 설문조사일거 같은데 느껴진다. 애들이 주로 사용하는 방법이 이것 말고는 없으니",
+"choices": [
+{
+"id": "sleep_survey_now",
+"label": "얼마 안 걸릴테니 바로 하자",
+"value": "survey_now",
+"next": "part8_now-1"
+},
+{
+"id": "sleep_survey_later",
+"label": "내 할 일도 바쁘다 나중에 해줄게",
+"value": "survey_later",
+"next": "part8_later-11"
+}
+]
+},
+
+{
+"id": "part8_now-1",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "잠깐이면 될거 같은데 빠르게 하자",
+"next": "part8_now2-1"
+},
+
+{
+"id": "part8_now2-1",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "(잠깐 잔 사이에 설문조사가 꽤 많이 쌓였지만 생각보다는 빠르게 끝낸다)",
+"next": "part8_now3-1"
+},
+
+{
+"id": "part8_now3-1",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "player",
+"characters": [],
+"text": "왜 이리 많아",
+"next": "part10-1"
+},
+
+{
+"id": "part8_later-11",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "나도 지금 하는 수행평가가 있다.",
+"next": "part8_later-12"
+},
+
+{
+"id": "part8_later-12",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "오늘 안에 만들어서 내야하는데......",
+"next": "part8_later-13"
+},
+
+{
+"id": "part8_later-13",
+"act": "school",
+"background": "study_room",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "어차피 짧게 걸릴 거 같은 거 나중에 해야지.",
+"next": "part10-1"
+},
+
+
+{
+"id": "part9",
+"act": "school",
+"background": "classroom",
+"tone": "urgent",
+"speaker": "선생님",
+"characters": [],
+"text": "자습실로 이동해라!!",
+"next": "part9_2"
+},
+
+{
+"id": "part9_2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "교실 밖에서는 학년부장선생님의 목소리가 들린다",
+"next": "part9_3"
+},
+
+{
+"id": "part9_3",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "아침에 자습실을 안 가는 학생들이 몇몇 존재해서 보내실려고 저러시는거 같다",
+"next": "part9_4"
+},
+
+{
+"id": "part9_4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [],
+"text": "원래라면 자습실로 이동했겠지만 지금은 속이 안 좋아서......",
+"next": "part9_5"
+},
+
+{
+"id": "part9_5",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "겸사겸사 아침 자습에 안 갈수도 있으니 바로 실행에 옮긴다",
+"next": "part9_6"
+},
+
+{
+"id": "part9_6",
+"act": "school",
+"background": "classroom_hallway",
+"tone": "normal",
+"speaker": "player",
+"characters": [],
+"text": "필승 ㅡㅡ7",
+"next": "part9_7"
+},
+
+{
+"id": "part9_7",
+"act": "school",
+"background": "classroom_hallway",
+"tone": "normal",
+"speaker": "선생님",
+"characters": [],
+"text": "오냐",
+"next": "part9_8"
+},
+
+{
+"id": "part9_8",
+"act": "school",
+"background": "classroom_hallway",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "내가 화장실에 가는걸 신경 쓰시지는 않는 모양이다",
+"next": "part9_9"
+},
+
+{
+"id": "part9_9",
+"act": "school",
+"background": "classroom_hallway",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "오래 걸릴줄은 아마 모르실거다",
+"next": "part9_10"
+},
+
+{
+"id": "part9_10",
+"act": "school",
+"background": "classroom_washroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "계속해서 단톡에 설문조사가 올라온다",
+"next": "part9_11"
+},
+
+{
+"id": "part9_11",
+"act": "school",
+"background": "classroom_washroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "이참에 끝내두는 편이 좋을 것 같다",
+"next": "part11"
+},
+
+{
+"id": "part10-1",
+"act": "school",
+"background": "study_room",
+"tone": "tired",
+"speaker": "",
+"characters": [],
+"text": "back(뒤) lose(질) 것 같다",
+"next": "talk50"
+},
+
+{
+"id": "talk50",
+"act": "school",
+"background": "study_room",
+"tone": "tired",
+"speaker": "",
+"characters": [],
+"text": "안 그래도 모자른 수면시간, 아침에 강제적으로 해야하는 자습, 끝나지 않는 수행평가........",
+"next": "talk51"
+},
+
+{
+"id": "talk51",
+"act": "school",
+"background": "study_room",
+"tone": "tired",
+"speaker": "",
+"characters": [],
+"text": "근 5일동안 잔시간 합해도 18시간 채 안되는 것 같다",
+"next": "part10"
+},
+
+{
+"id": "part10",
+"act": "school",
+"background": "study_room",
+"tone": "tired",
+"speaker": "",
+"characters": [],
+"text": "이 와중에 애들도 분주하게 설문지를 돌린다",
+"choices": [
+{
+"id": "skip_study",
+"label": "아침 자습은 안해도 괜찮아",
+"value": "sleep",
+"next": "part10_sleep"
+},
+{
+"id": "keep_study",
+"label": "그래도 버티자",
+"value": "study",
+"next": "part10_study"
+}
+]
+},
+
+{
+"id": "part10_sleep",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "이제 더 이상은 안된다",
+"next": "talk52"
+},
+
+{
+"id": "talk52",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "체력의 한계라는 것에 다다른 것 같다",
+"next": "talk53"
+},
+
+{
+"id": "talk53",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "버티라면 버틸 수는 있겠지만 그럴 경우 높은 확률로 bottle god이 될 것이다",
+"next": "talk54"
+},
+
+{
+"id": "talk54",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "player",
+"characters": [],
+"text": "20분이면 되겠지.....",
+"next": "talk55"
+},
+
+{
+"id": "talk55",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "시계에 알람을 맞춰두고 잠시 눈을 감아본다",
+"next": "talk56"
+},
+
+{
+"id": "talk56",
+"act": "school",
+"background": "study_room",
+"tone": "sleepy",
+"speaker": "",
+"characters": [],
+"text": "(그렇게 아침자습동안 잤다고 한다)",
+"next": "part11"
+},
+
+{
+"id": "part10_study",
+"act": "school",
+"background": "study_room",
+"tone": "focused",
+"speaker": "",
+"characters": [],
+"text": "이제 얼마 안 남았다",
+"next": "talk52-1"
+},
+
+{
+"id": "talk52-1",
+"act": "school",
+"background": "study_room",
+"tone": "focused",
+"speaker": "",
+"characters": [],
+"text": "이것만 끝나면..... 이것만 끝나면이란 생각으로 버텨온 삶이다",
+"next": "talk53-1"
+},
+
+{
+"id": "talk53-1",
+"act": "school",
+"background": "study_room",
+"tone": "focused",
+"speaker": "",
+"characters": [],
+"text": "이 수행평가만 끝내면 당분간은 수면시간이 조금이나마 늘어날 것이다",
+"next": "talk54-1"
+},
+
+{
+"id": "talk54-1",
+"act": "school",
+"background": "study_room",
+"tone": "focused",
+"speaker": "",
+"characters": [],
+"text": "시험도 마지막 시험이다. 마음을 불태우자",
+"next": "part11"
+},
+
+{
+"id": "part11",
+"act": "school",
+"background": "classroom",
+"tone": "tired",
+"speaker": "Chapter3",
+"characters": [],
+"text": "인생은 참으로 고되다",
+"next": "talk57"
+},
+
+{
+"id": "talk57",
+"act": "school",
+"background": "classroom",
+"tone": "tired",
+"speaker": "",
+"characters": [],
+"text": "침대랑 한 몸이 되고 싶다",
+"next": "talk58"
+},
+
+{
+"id": "talk58",
+"act": "school",
+"background": "classroom",
+"tone": "tired",
+"speaker": "",
+"characters": [],
+"text": "자도자도 졸리고 설령 잤더라도 졸리다",
+"next": "talk59"
+},
+
+{
+"id": "talk59",
+"act": "school",
+"background": "classroom",
+"tone": "tired",
+"speaker": "",
+"characters": [],
+"text": "사실 마음 편히 쉬고 싶은 것일 수도 있다",
+"next": "talk60"
+},
+
+{
+"id": "talk60",
+"act": "school",
+"background": "classroom",
+"tone": "tired",
+"speaker": "",
+"characters": [],
+"text": "해야할 일.... 시험 공부..... 이 모든 것들이 다 마음의 짐에 무게를 더하는 것 같다",
+"next": "talk61"
+},
+
+{
+"id": "talk61",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "???",
+"characters": [],
+"text": "야! 설문조사 했어?",
+"next": "talk62"
+},
+
+{
+"id": "talk62",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [],
+"text": "그리고 시끄러운 친구까지",
+"next": "talk63"
+},
+
+{
+"id": "talk63",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "무시하냐?",
+"next": "talk64"
+},
+
+{
+"id": "talk64",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "겠냐 안 들린 척 하는거지",
+"next": "talk65"
+},
+
+{
+"id": "talk65",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "savage", "expression": "angry", "position": "center" }],
+"text": "이 sheep baby가?",
+"next": "talk66"
+},
+
+{
+"id": "talk66",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [{ "id": "female", "version": "savage", "expression": "angry", "position": "center" }],
+"text": "얘는 최아인이란 아이다",
+"next": "talk67"
+},
+
+{
+"id": "talk67",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "",
+"characters": [{ "id": "female", "version": "savage", "expression": "angry", "position": "center" }],
+"text": "초등학교 고학년에서 중1 그 사이부터 알아온 사이인데 뭘하든 별 감응이 없다",
+"next": "talk68"
+},
+
+{
+"id": "talk68",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "serious", "position": "center" }],
+"text": "이번엔 진짜 중요한거란 말이야",
+"next": "talk69"
+},
+
+{
+"id": "talk69",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "serious", "position": "center" }],
+"text": "설문조사가 거기서 거기지",
+"next": "talk70"
+},
+
+{
+"id": "talk70",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "인류애 어디감? 니 반응보니 애들이 올리는건 하나도 안했겠다? ",
+"choices": [
+{
+"id": "always",
+"label": "매번 함",
+"value": "always",
+"next": "part11_always"
+},
+{
+"id": "mostly",
+"label": "대부분 함",
+"value": "mostly",
+"next": "part11_mostly"
+},
+{
+"id": "normal",
+"label": "그저 그럼",
+"value": "normal",
+"next": "part11_normal"
+},
+{
+"id": "rarely",
+"label": "거의 안함",
+"value": "rarely",
+"next": "part11_rarely"
+},
+{
+"id": "never",
+"label": "아예 안함",
+"value": "never",
+"next": "part11_never"
+}
+]
+},
+
+{
+"id": "part11_always",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "다 했는데?",
+"next": "part11_always2"
+},
+
+{
+"id": "part11_always2",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "그럼 내 것도 했겠네",
+"next": "part11_always3"
+},
+
+{
+"id": "part11_always3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "했다고 한 적 없다",
+"next": "part11_always4"
+},
+
+{
+"id": "part11_always4",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "angry", "position": "center" }],
+"text": "야이 dog bird...",
+"next": "part12"
+},
+
+{
+"id": "part11_mostly",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "거의 다 하지",
+"next": "part11_mostly2"
+},
+
+{
+"id": "part11_mostly2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "flustered", "position": "center" }],
+"text": "뭐야 그럼 내 것도 했다는거야?",
+"next": "part11_mostly3"
+},
+
+
+{
+"id": "part11_mostly3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "flustered", "position": "center" }],
+"text": "글쌔",
+"next": "part11_mostly4"
+},
+
+{
+"id": "part11_mostly4",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "serious", "position": "center" }],
+"text": "그냥 고오옵게 말해주면 안 될까? 도대체 뭐가 그리 아쉬워서 말을 안할까?",
+"next": "part11_mostly5"
+},
+
+{
+"id": "part11_mostly5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "serious", "position": "center" }],
+"text": "몰?루",
+"next": "part11_mostly6"
+},
+
+{
+"id": "part11_mostly6",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "angry", "position": "center" }],
+"text": "하.....(주먹을 쥔다)",
+"next": "part12"
+},
+
+{
+"id": "part11_normal",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "글쌔....어떨려나....",
+"next": "part11_normal2"
+},
+
+{
+"id": "part11_normal2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "...그래서 내거는?",
+"next": "part11_normal3"
+},
+
+{
+"id": "part11_normal3",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "니 상상에 맡김",
+"next": "part11_normal4"
+},
+
+{
+"id": "part11_normal4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "serious", "position": "center" }],
+"text": "했다는 거지?",
+"next": "part11_normal5"
+},
+
+{
+"id": "part11_normal5",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "serious", "position": "center" }],
+"text": "니 상상에 맡긴다니까?",
+"next": "part11_normal6"
+},
+
+{
+"id": "part11_normal6",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "angry", "position": "center" }],
+"text": "오늘따라 왜 이렇게 입을 안 열까? (주먹을 쥔다)응?",
+"next": "part12"
+},
+
+{
+"id": "part11_rarely",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "뭐, 그런편이지",
+"next": "part11_rarely2"
+},
+
+{
+"id": "part11_rarely2",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "에휴, 내가 그럴줄 알았다",
+"next": "part11_rarely3"
+},
+
+{
+"id": "part11_rarely3",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "그러면 내 것도 안했겠네?",
+"next": "part11_rarely4"
+},
+
+{
+"id": "part11_rarely4",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "과연 그럴까?",
+"next": "part11_rarely5"
+},
+
+{
+"id": "part11_rarely5",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "뻔할 뻔자지",
+"next": "part11_rarely6"
+},
+
+{
+"id": "part11_rarely6",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "진짜로 그렇게 생각해?",
+"next": "part11_rarely7"
+},
+
+{
+"id": "part11_rarely7",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle_close", "expression": "neutral", "position": "center" }],
+"text": "야 확실히 말해라",
+"next": "part11_rarely8"
+},
+
+{
+"id": "part11_rarely8",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "angrylittle_close", "expression": "neutral", "position": "center" }],
+"text": "어우 순간 혹성탈출인줄",
+"next": "part11_rarely9"
+},
+
+{
+"id": "part11_rarely9",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "savage", "expression": "angry", "position": "center" }],
+"text": "뭐 임마?! (주먹이 날라온다)",
+"next": "part12"
+},
+
+
+{
+"id": "part11_never",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "왜 함? 그걸",
+"next": "part11_never2"
+},
+
+{
+"id": "part11_never2",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "역시 넌 쓰레기가 맞다",
+"next": "part11_never3"
+},
+
+{
+"id": "part11_never3",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "smile", "position": "center" }],
+"text": "그런 너는 쓰레기 친구고",
+"next": "part11_never4"
+},
+
+{
+"id": "part11_never4",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "smile", "position": "center" }],
+"text": "난 그런 친구 없는데?",
+"next": "part11_never5"
+},
+
+{
+"id": "part11_never5",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "smile", "position": "center" }],
+"text": "예~ 예~ 그러시겠죠",
+"next": "part11_never6"
+},
+
+{
+"id": "part11_never6",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smile", "expression": "smile", "position": "center" }],
+"text": "그럼 이왕 쓰레기인거 분리수거라도 하게 내 설문은 해라",
+"next": "part11_never7"
+},
+
+{
+"id": "part11_never7",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smile", "expression": "smile", "position": "center" }],
+"text": "뭐라고? 음식물 쓰레기가 하는 말은 안들리는데?",
+"next": "part11_never8"
+},
+
+{
+"id": "part11_never8",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "savage", "expression": "angry", "position": "center" }],
+"text": "이 See foot girl이?",
+"next": "part12"
+},
+
+{
+"id": "part12",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "",
+"characters": [],
+"text": "그렇게 아인이한테 좀 맞았다",
+"next": "talk71"
+},
+
+{
+"id": "talk71",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "",
+"characters": [],
+"text": "아니 내가 뭘 그리 잘못했다고....",
+"next": "talk72"
+},
+
+{
+"id": "talk72",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [],
+"text": "ㅏㅏㅇ아아아ㅏ ㅈ만잠ㅁㅏㄴ잠만 뼈 맞았어 뼈",
+"next": "talk73"
+},
+
+{
+"id": "talk73",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "angry", "position": "center" }],
+"text": "이왕 맞은거면 금이 가면 좋을텐데",
+"next": "talk74"
+},
+
+{
+"id": "talk74",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "angry", "position": "center" }],
+"text": "전치 3주 넘게 나올 듯",
+"next": "talk75"
+},
+
+{
+"id": "talk75",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angryslight", "expression": "angry", "position": "center" }],
+"text": "아직 덜 맞았나보네",
+"next": "talk76"
+},
+
+{
+"id": "talk76",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "angryslight", "expression": "angry", "position": "center" }],
+"text": "아 ㅈㅅㅈㅅ",
+"next": "talk77"
+},
+
+{
+"id": "talk77",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "nodap", "expression": "neutral", "position": "center" }],
+"text": "에휴 말을 말자",
+"next": "talk78"
+},
+
+{
+"id": "talk78",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "그래서 내거 했냐고?",
+"next": "talk79"
+},
+
+{
+"id": "talk79",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "이미 진작에 했지",
+"next": "talk80"
+},
+
+{
+"id": "talk80",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "flustered", "position": "center" }],
+"text": "뭐야 그럴거면 걍 했다하면 되지",
+"next": "talk81"
+},
+
+{
+"id": "talk81",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "flustered", "position": "center" }],
+"text": "내가 왜?",
+"next": "talk82"
+},
+
+{
+"id": "talk82",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angryslight", "expression": "angry", "position": "center" }],
+"text": "주님 오늘 한명 곁으로 보내드립니다. 저의 죄를 사하시고....",
+"next": "talk83"
+},
+
+{
+"id": "talk83",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "angryslight", "expression": "angry", "position": "center" }],
+"text": "아아아아아아아아ㅏㅇㅇ 미안미안미안",
+"next": "talk84"
+},
+
+{
+"id": "talk84",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "했다고 했으니까 내가 봐준다 진짜",
+"next": "talk85"
+},
+
+{
+"id": "talk85",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "이게 뭐 대수라고",
+"next": "talk86"
+},
+
+{
+"id": "talk86",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "neutral", "position": "center" }],
+"text": "내가 할 소리다. 설문조사 간단하잖아?",
+"next": "talk87"
+},
+
+{
+"id": "talk87",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "neutral", "position": "center" }],
+"text": "뭐, 간단하다면 간단하지",
+"next": "talk88"
+},
+
+{
+"id": "talk88",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "끝이 안나겠네. 자 그럼 근본적으로 가보자. 넌 설문조사 왜 하냐?",
+"repeatText": "다른 이유는 더 없어?",
+"choices": [
+{
+"id": "duty",
+"label": "해야할 것 같아서",
+"value": "duty",
+"multi": true,
+"multiNext": "part12_duty"
+},
+{
+"id": "empathy",
+"label": "친구가 불쌍해보여서",
+"value": "empathy",
+"multi": true,
+"multiNext": "part12_empathy"
+},
+{
+"id": "funny",
+"label": "재밌어보여서",
+"value": "funny",
+"multi": true,
+"multiNext": "part12_funny"
+},
+{
+"id": "interesting",
+"label": "내용이 흥미로워서",
+"value": "interesting",
+"multi": true,
+"multiNext": "part12_interesting"
+},
+{
+"id": "other",
+"label": "기타 (직접입력)",
+"value": "other",
+"multi": true,
+"multiNext": "part12_other"
+},
+{
+    "id": "finish",
+    "label": "더 없는 듯",
+    "value": "finish",
+    "showAfterSelection": true,
+    "next": "part13"
+}
+]
+},
+
+{
+    "id": "part12_other",
+    "act": "school",
+    "background": "classroom",
+    "tone": "neutral",
+    "speaker": "",
+    "characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+    "text": "답변을 적어주세요",
+    "input": true,
+    "next": "part12_other-1"
+},
+
+{
+"id": "part12_duty",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "일종의 책임의식이랄까",
+"next": "talk89"
+},
+
+{
+"id": "talk89",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "너가 그런 사고를 가지는구나",
+"next": "talk90"
+},
+
+{
+"id": "talk90",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "날 도대체 뭘로 보는거야?",
+"next": "talk91"
+},
+
+{
+"id": "talk91",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "고지식한 박쥐?",
+"next": "talk88"
+},
+
+{
+"id": "part12_empathy",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "안 하면 걔가 불쌍하잖아",
+"next": "talk89-1"
+},
+
+{
+"id": "talk89-1",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "너가 그런 감정을 느끼는구나",
+"next": "talk90-1"
+},
+
+{
+"id": "talk90-1",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "날 사이코패스로 보는거냐",
+"next": "talk91-1"
+},
+
+{
+"id": "talk91-1",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "조금은?",
+"next": "talk88"
+},
+
+{
+"id": "part12_funny",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "뭔가 재밌을 것 같잖아",
+"next": "talk89-2"
+},
+
+{
+"id": "talk89-2",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "하긴, 새로운거를 알아가는건 재밌을 수도 있으니까",
+"next": "talk90-2"
+},
+
+{
+"id": "talk90-2",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "근데 너가 그런 생각을 한다고?",
+"next": "talk90-3"
+},
+
+{
+"id": "talk90-3",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "그정도 두뇌회전은 합니다",
+"next": "talk91-3"
+},
+
+{
+"id": "talk91-3",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "넌 다른쪽으로 돌아있잖아 ㅋ",
+"next": "talk92-3"
+},
+
+{
+"id": "talk92-3",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "너만 하겠냐",
+"next": "talk93-3"
+},
+
+{
+"id": "talk93-3",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "너보단 정상일 듯",
+"next": "talk88"
+},
+
+{
+"id": "part12_interesting",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "들어갔을 때 제목이 흥미로우면 함",
+"next": "talk89-4"
+},
+
+{
+"id": "talk89-4",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "surprise", "expression": "flustered", "position": "center" }],
+"text": "좀 가식적인거 같은데",
+"next": "talk90-4"
+},
+
+{
+"id": "talk90-4",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "surprise", "expression": "flustered", "position": "center" }],
+"text": "진심이거든?",
+"next": "talk91-4"
+},
+
+{
+"id": "talk91-4",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "얘 머리에서 나올 대답이 아닌데.....",
+"next": "talk88"
+},
+
+
+{
+"id": "part12_other-1",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "뭐 그것도 이유가 될 수 있지",
+"next": "talk89-5"
+},
+
+{
+"id": "talk89-5",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "어째 반응이 미지근하다?",
+"next": "talk90-5"
+},
+
+{
+"id": "talk90-5",
+"act": "school",
+"background": "classroom",
+"tone": "neutral",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "너가 그렇게 생각한게 되게 의외여서?",
+"next": "talk88"
+},
+
+{
+"id": "part13",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "너 생각보다 되게 단순한 아이였구나",
+"next":"talk94"
+},
+
+
+{
+"id": "talk94",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "뭐 그렇게 깊게 생각할게 있나",
+"next": "talk95"
+},
+
+{
+"id": "talk95",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "그럼 설문조사 하는데 신경 쓰는 요인 같은거는?",
+"next": "talk96"
+},
+
+{
+"id": "talk96",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "아 오늘 하루치 뇌 활동량 다 씀 ㅅㄱ",
+"next": "talk97"
+},
+
+{
+"id": "talk97",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angryslight", "expression": "angry", "position": "center" }],
+"text": "남은 수명 다 쓰기 싫으면 말해라?",
+"next": "talk98"
+},
+
+{
+"id": "talk98",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "angryslight", "expression": "angry", "position": "center" }],
+"text": "아니 왜 나한테 너무 고차원적인 사고를 요하는건데?",
+"next": "talk99"
+},
+
+{
+"id": "talk99",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "에이 이게 왜 고차원...",
+"next": "talk100"
+},
+
+{
+"id": "talk100",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "........",
+"next": "talk101"
+},
+
+{
+"id": "talk101",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "확실히 그럴수도",
+"next": "talk102"
+},
+
+{
+"id": "talk102",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "말한 내가 잘못했다",
+"repeatText": "신경 쓰는게 더 있나?",
+"choices": [
+{
+"id": "time",
+"label": "하는데 걸리는 시간",
+"value": "time",
+"multi": true,
+"multiNext": "part13_time"
+},
+{
+"id": "hard",
+"label": "내용의 난이도",
+"value": "hard",
+"multi": true,
+"multiNext": "part13_hard"
+},
+{
+"id": "subject",
+"label": "주제에 대한 흥미",
+"value": "subject",
+"multi": true,
+"multiNext": "part13_subject"
+},
+{
+"id": "number",
+"label": "문항 수",
+"value": "number",
+"multi": true,
+"multiNext": "part13_number"
+},
+{
+"id": "friendship",
+"label": "요청자와의 친분",
+"value": "friendship",
+"multi": true,
+"multiNext": "part13_friendship"
+},
+{
+"id": "other-1",
+"label": "기타 (직접입력)",
+"value": "other-1",
+"multi": true,
+"multiNext": "part13_other"
+},
+{
+    "id": "finish-1",
+    "label": "이거면 된거 같다",
+    "value": "finish-1",
+    "showAfterSelection": true,
+    "next": "part14"
+}
+]
+},
+
+{
+    "id": "part13_other",
+    "act": "school",
+    "background": "classroom",
+    "tone": "normal",
+    "speaker": "",
+    "characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+    "text": "답변을 적어주세요",
+    "input": true,
+    "next": "part13_other-1"
+},
+
+
+{
+"id": "part13_time",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "아무래도 하는데 걸리는 시간이 좀 고려되지 않을까....",
+"next": "talk103"
+},
+
+{
+"id": "talk103",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "확실히 너한테는 걸리는 시간이 중요해 보인다",
+"next": "talk104"
+},
+
+{
+"id": "talk104",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "별로 하고 싶지도 않은데 길면 더 안하고 싶을거 아니야",
+"next": "talk105"
+},
+
+{
+"id": "talk105",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "뭔가 맞는 말 같은데 왜케 기분이 묘하지.....",
+"next": "talk106"
+},
+
+{
+"id": "talk106",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "무시하던가 ㅋ",
+"next": "talk102"
+},
+
+{
+"id": "part13_hard",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "너무 어려우면 이제 좀 하기 꺼려지지 않나......",
+"next": "talk103-1"
+},
+
+{
+"id": "talk103-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "하긴 너 머리 그리 좋은거 아니잖아?",
+"next": "talk104-1"
+},
+
+{
+"id": "talk104-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "그래도 너보단 나을듯",
+"next": "talk105-1"
+},
+
+{
+"id": "talk105-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smile", "expression": "neutral", "position": "center" }],
+"text": "나보다 성적 낮죠?",
+"next": "talk106-1"
+},
+
+{
+"id": "talk106-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "뭐래, 몇몇개는 나보다 낮으면서",
+"next": "talk107-1"
+},
+
+{
+"id": "talk107-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "응 그래도 평균으로 보면 너보다 높아~",
+"next": "talk108-1"
+},
+
+{
+"id": "talk108-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "싸우자는건가?",
+"next": "talk110-1"
+},
+
+{
+"id": "talk110-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "글쎄? 난 사실을 말한건데?",
+"next": "talk111-1"
+},
+
+{
+"id": "talk111-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "...내가 참는다",
+"next": "talk112-1"
+},
+
+{
+"id": "talk112-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "오 드디어 참을성이란걸 길렀구나!",
+"next": "talk113-1"
+},
+
+{
+"id": "talk113-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "너 죽고 나 죽자 이...",
+"next": "talk114-1"
+},
+
+{
+"id": "talk114-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "ㅋㅋ화났데요~",
+"next": "talk102"
+},
+
+{
+"id": "part13_subject",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "주제가 관심있는 쪽이면 하는 듯",
+"next": "talk103-2"
+},
+
+{
+"id": "talk103-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "관심없는 쪽이면?",
+"next": "talk104-2"
+},
+
+{
+"id": "talk104-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "흥미로워 보여도 함",
+"next": "talk105-2"
+},
+
+{
+"id": "talk105-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "확실히 학적인 거랑은 멀긴하구나",
+"next": "talk106-2"
+},
+
+{
+"id": "talk106-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "재밌는게 최고지",
+"next": "talk102"
+},
+
+
+{
+"id": "part13_number",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "얼마나 묻는지가 좀 중요하지 않나 싶음",
+"next": "talk103-3"
+},
+
+{
+"id": "talk103-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "걸리는 시간이랑은 별개임?",
+"next": "talk104-3"
+},
+
+{
+"id": "talk104-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "뭐, 복합적이지. 너무 많으면 '아 언제 끝나' 할게 뻔하지",
+"next": "talk105-3"
+},
+
+{
+"id": "talk105-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "나도 너무 많으면 짜증나긴 해. 물론 끝까지 하지만",
+"next": "talk102"
+},
+
+{
+"id": "part13_friendship",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "그래도 친한 애가 올리는걸 더 하지 않나",
+"next": "talk103-4"
+},
+
+{
+"id": "talk103-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "확실히 나랑 친한 애인데 안하면 좀 그렇긴 해",
+"next": "talk104-4"
+},
+
+{
+"id": "talk104-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "너가 친한 애가 있어?",
+"next": "talk105-4"
+},
+
+{
+"id": "talk105-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "아침부터 나한테 말거는 애요",
+"next": "talk106-4"
+},
+
+{
+"id": "talk106-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "음? 누굴 말하는지 잘 모르겠네 ^^",
+"next": "talk107-4"
+},
+
+{
+"id": "talk107-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "smile", "position": "center" }],
+"text": "....너보단 많을 듯",
+"next": "talk108-4"
+},
+
+{
+"id": "talk108-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smile", "expression": "smile", "position": "center" }],
+"text": "뭐래 찐따가 ㅋ",
+"next": "talk109-4"
+},
+
+{
+"id": "talk109-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smile", "expression": "smile", "position": "center" }],
+"text": "그런 찐따랑 얘기하는 사람은 뭘까?",
+"next": "talk110-4"
+},
+
+{
+"id": "talk110-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "smile", "position": "center" }],
+"text": "불쌍한 자에게 자비를 배푸는 천사정도?",
+"next": "talk111-4"
+},
+
+{
+"id": "talk111-4",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "smile", "position": "center" }],
+"text": "(경멸)",
+"next": "talk102"
+},
+
+{
+"id": "part13_other-1",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "그것도 확실히 고려할만하지",
+"next": "talk103-5"
+},
+
+{
+"id": "talk103-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "너도 이런거 신경씀?",
+"next": "talk104-5"
+},
+
+{
+"id": "talk104-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "뭐.... 어느정도는?",
+"next": "talk105-5"
+},
+
+{
+"id": "talk105-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "아예 생각없이 하지는 않구나?",
+"next": "talk106-5"
+},
+
+{
+"id": "talk106-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "저도 사고하는 동물입니다만",
+"next": "talk107-5"
+},
+
+{
+"id": "talk107-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "행동하는 것만 보면 짐승인줄",
+"next": "talk108-5"
+},
+
+{
+"id": "talk108-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "너는 그러면 사육사라도 되냐?",
+"next": "talk109-5"
+},
+
+{
+"id": "talk109-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "smile", "position": "center" }],
+"text": "내가 길들이는건 잘하지ㅋ",
+"next": "talk110-5"
+},
+
+{
+"id": "talk110-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "smile", "position": "center" }],
+"text": "아무래도 그렇지",
+"next": "talk111-5"
+},
+
+{
+"id": "talk111-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "음? 뭐라고?",
+"next": "talk112-5"
+},
+
+{
+"id": "talk112-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "아무것도 아님",
+"next": "talk113-5"
+},
+
+{
+"id": "talk113-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "아 뭔데",
+"next": "talk114-5"
+},
+
+{
+"id": "talk114-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "몰라도 됨",
+"next": "talk115-5"
+},
+
+{
+"id": "talk115-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "angrylittle", "expression": "neutral", "position": "center" }],
+"text": "아 진짜 뭔데~",
+"next": "talk102"
+},
+
+{
+"id": "part14",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "이야, 그래도 너가 생각이란걸 하다니... 장족의 발전이다",
+"next": "talk116"
+},
+
+{
+"id": "talk116",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "날 진짜 구석에 박힌 먼지로 본거냐?",
+"next": "talk117"
+},
+
+{
+"id": "talk117",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "그거보다 못한 존재?",
+"next": "talk118"
+},
+
+{
+"id": "talk118",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "아이고 생각한 것보다 높게 봐주셔서 감사합니다",
+"next": "talk119"
+},
+
+{
+"id": "talk119",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smile", "expression": "smile", "position": "center" }],
+"text": "ㅋㅋㅋ 정신줄 놨네",
+"next": "talk120"
+},
+
+{
+"id": "talk120",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smile", "expression": "smile", "position": "center" }],
+"text": "ㅏㅏㅏㅏㅏ 아무것도 안 들린다ㅏㅏㅏㅏ",
+"next": "talk121"
+},
+
+{
+"id": "talk121",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "ㅋㅋㅋㅋ 그건 그렇고 요새 애들 설문조사 너무 안하는거 같지 않냐?",
+"next": "talk122"
+},
+
+{
+"id": "talk122",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "확실히 학년 올라갈수록 잘 안하는거 같기도 하고...",
+"next": "talk123"
+},
+
+{
+"id": "talk123",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "그치? 근데 너도 그런걸 느끼는구나...",
+"next": "talk124"
+},
+
+{
+"id": "talk124",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "나도 설문조사를 종종 쓰니까",
+"next": "talk125"
+},
+
+{
+"id": "talk125",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "애들은 왜 안하는걸까? 이게 그렇게 어렵나?",
+"next": "talk126"
+},
+
+{
+"id": "talk126",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "그러게나 말이다",
+"next": "talk127"
+},
+
+{
+"id": "talk127",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "아 그러지 말고 생각좀 해봐",
+"next": "talk128"
+},
+
+{
+"id": "talk128",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "", "expression": "neutral", "position": "center" }],
+"text": "아니 오늘따라 왜 그러는데. 오늘 아니면 더이상 못 만나는 것마냥 구냐",
+"next": "talk129"
+},
+
+{
+"id": "talk129",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "아이, 가끔 그런날도 있는거지 뭐",
+"next": "talk130"
+},
+
+{
+"id": "talk130",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "무튼 왜 그런거 같냐고?",
+"repeatText": "또 다른 이유가 있지 않을까?",
+"choices": [
+{
+"id": "request",
+"label": "설문조사 요청이 너무 많음",
+"value": "request",
+"multi": true,
+"multiNext": "part14_request"
+},
+{
+"id": "reward",
+"label": "참여에 대한 보상이 없음",
+"value": "reward",
+"multi": true,
+"multiNext": "part14_reward"
+},
+{
+"id": "test",
+"label": "시험, 수행평가 때문에",
+"value": "test",
+"multi": true,
+"multiNext": "part14_test"
+},
+{
+"id": "toolong",
+"label": "시간이 너무 많이 쓰임",
+"value": "toolong",
+"multi": true,
+"multiNext": "part14_toolong"
+},
+{
+"id": "boring",
+"label": "설문조사 내용에 흥미를 못느낌",
+"value": "boring",
+"multi": true,
+"multiNext": "part14_boring"
+},
+{
+"id": "other-2",
+"label": "기타 (직접입력)",
+"value": "other-2",
+"multi": true,
+"multiNext": "part14_other"
+},
+{
+    "id": "finish-2",
+    "label": "이제 더 없는거 같은데",
+    "value": "finish-2",
+    "showAfterSelection": true,
+    "next": "part15"
+}
+]
+},
+
+{
+    "id": "part14_other",
+    "act": "school",
+    "background": "classroom",
+    "tone": "normal",
+    "speaker": "",
+    "characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+    "text": "답변을 적어주세요",
+    "input": true,
+    "next": "part14_other-1"
+},
+
+{
+"id": "part14_request",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "설문조사 해달라는게 너무 많음",
+"next": "talk131"
+},
+
+{
+"id": "talk131",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "확실히 설문조사가 편해서 애들이 많이 쓰면서 해야하는 설문조사가 많아지긴 했어",
+"next": "talk132"
+},
+
+{
+"id": "talk132",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "우리 학교에서 설문조사 안 쓴 사람이 없을 걸",
+"next": "talk133"
+},
+
+{
+"id": "talk133",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "그 정도이긴 하지",
+"next": "talk130"
+},
+
+{
+"id": "part14_reward",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "뭔가 보상 같은게 없어서 그런거 아닐까?",
+"next": "talk131-1"
+},
+
+{
+"id": "talk131-1",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "너무 보수적인거 아니냐?",
+"next": "talk132-1"
+},
+
+{
+"id": "talk132-1",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "surprise", "expression": "neutral", "position": "center" }],
+"text": "야이거갖고보수적이다고하는건좀그렇지않냐아니그니까내말은말이그렇다는거지이런것도하나의이유가되지않을까싶다하는나의생각을얘기한것뿐이야진짜로정말로",
+"next": "talk133-1"
+},
+
+{
+"id": "talk133-1",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "nodap", "expression": "neutral", "position": "center" }],
+"text": "....에휴",
+"next": "talk130"
+},
+
+{
+"id": "part14_test",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "중요한거 신경 쓰느라 못하는거 아닐까?",
+"next": "talk131-2"
+},
+
+{
+"id": "talk131-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "기말이나 수행평가 같은거?",
+"next": "talk132-2"
+},
+
+{
+"id": "talk132-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "ㅇㅇ 그런거",
+"next": "talk133-2"
+},
+
+{
+"id": "talk133-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "우리 학교가 그런게 좀 있긴 하지 막 갑자기 물 밀려오듯 올 때",
+"next": "talk134-2"
+},
+{
+"id": "talk134-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "근데 넌 늘 가라앉아 있잖아?",
+"next": "talk135-2"
+},
+
+{
+"id": "talk135-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "무슨 의미지?",
+"next": "talk136-2"
+},
+
+{
+"id": "talk136-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "한 번 맞춰봐 ㅋ",
+"next": "talk137-2"
+},
+
+{
+"id": "talk137-2",
+"act": "school",
+"background": "classroom",
+"tone": "normal",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "......",
+"next": "talk130"
+},
+
+{
+"id": "part14_toolong",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "걸리는데 오래 걸려서 그런거 아닐까?",
+"next": "talk131-3"
+},
+
+{
+"id": "talk131-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "근데 대부분 금방 할 수 있는거 아닌가?",
+"next": "talk132-3"
+},
+
+{
+"id": "talk132-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "사람마다 느끼는 시간은 다르니까 뭐",
+"next": "talk133-3"
+},
+
+{
+"id": "talk133-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "실제로 긴 설문조사도 있으니 그럴 수도 있겠네",
+"next": "talk134-3"
+},
+
+{
+"id": "talk134-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "그럼 너한테는 모든 설문조사가 길겠네?",
+"next": "talk135-3"
+},
+
+{
+"id": "talk135-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "전부는 아니고",
+"next": "talk136-3"
+},
+
+{
+"id": "talk136-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileopen", "expression": "neutral", "position": "center" }],
+"text": "그럼 대부분이겠네",
+"next": "talk137-3"
+},
+
+{
+"id": "talk137-3",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileopen", "expression": "neutral", "position": "center" }],
+"text": "아니 내 말은..... 됐다",
+"next": "talk130"
+},
+
+{
+"id": "part14_boring",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "설문조사 내용이 흥미롭지 않아서이지 않을까 싶다",
+"next": "talk131-4"
+},
+
+{
+"id": "talk131-4",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "하긴 나도 몇몇 설문은 딱 들어갔을 때 '이게 뭐지?' 싶은게 꽤 있으니",
+"next": "talk132-4"
+},
+
+{
+"id": "talk132-4",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "그래서 너가 설문조사를 잘 안하는구나",
+"next": "talk133-4"
+},
+
+{
+"id": "talk133-4",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "나 그래도 생각하는 지성인이다?",
+"next": "talk134-4"
+},
+
+{
+"id": "talk134-4",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "그거랑은 별개잖아",
+"next": "talk135-4"
+},
+
+{
+"id": "talk135-4",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smilejoke", "expression": "neutral", "position": "center" }],
+"text": "....맞긴 해ㅋ",
+"next": "talk130"
+},
+
+{
+    "id": "part14_other-1",
+    "act": "school",
+    "background": "classroom",
+    "tone": "positive",
+    "speaker": "최아인",
+    "characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+    "text": "오....꽤 일리있는데?",
+    "next": "talk131-5"
+},
+
+{
+"id": "talk131-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "왜 자꾸 나를 무시할까?",
+"next": "talk132-5"
+},
+
+{
+"id": "talk132-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileopen", "expression": "smile", "position": "center" }],
+"text": "흐으음.... 지금까지 본 적 없는 너의 모습이 보여져서?",
+"next": "talk133-5"
+},
+
+{
+"id": "talk133-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "이런 면모는 처음이랄까나....",
+"next": "talk134-5"
+},
+
+{
+"id": "talk134-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "우리가 그 정도로 얘기를 안 했나",
+"next": "talk135-5"
+},
+
+{
+"id": "talk135-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "알고 지낸 세월에 비하면 너어어어무 안 했지",
+"next": "talk136-5"
+},
+
+{
+"id": "talk136-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileopen", "expression": "smile", "position": "center" }],
+"text": "그러니까 이제 자주자주 말 좀 걸어봐",
+"next": "talk137-5"
+},
+
+{
+"id": "talk137-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileopen", "expression": "smile", "position": "center" }],
+"text": "왜, 오랜만에 반응 좋은 샌드백 만났냐?",
+"next": "talk138-5"
+},
+
+{
+"id": "talk138-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "꽤 의외랄까? 그런 모습들이",
+"next": "talk139-5"
+},
+
+{
+"id": "talk139-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": ".....칭찬이야 욕이야?",
+"next": "talk140-5"
+},
+
+{
+"id": "talk140-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "너가 원하는대로 받아들여",
+"next": "talk141-5"
+},
+
+{
+"id": "talk141-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileopen", "expression": "smile", "position": "center" }],
+"text": "앞으로는 더 알아갈 수 있을려나....",
+"next": "talk142-5"
+},
+
+{
+"id": "talk142-5",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileopen", "expression": "smile", "position": "center" }],
+"text": "..........너에 대해",
+"next": "talk130"
+},
+
+{
+"id": "part15",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "school", "expression": "neutral", "position": "center" }],
+"text": "오늘따라 너 되게 낯설다",
+"next": "part15_2"
+},
+
+{
+"id": "part15_2",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "응? 왜?",
+"next": "talk140"
+},
+
+{
+"id": "talk140",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "평소에 얘기도 잘 안하는데 심지어는 막 계속 뭔가를 물어보고",
+"next": "talk141"
+},
+
+{
+"id": "talk141",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "question", "expression": "neutral", "position": "center" }],
+"text": "뭔 일 있냐?",
+"next": "talk142"
+},
+
+{
+"id": "talk142",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "뭐야? 걱정해주는거야?",
+"next": "talk143"
+},
+
+{
+"id": "talk143",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": "에휴, 그럼 그렇지",
+"next": "talk144"
+},
+
+{
+"id": "talk144",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "gamtan", "expression": "neutral", "position": "center" }],
+"text": ".....뭔 일 생기면 말하고",
+"next": "talk145"
+},
+
+{
+"id": "talk145",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "ㅎㅎ 그래 때로는 예측 못하는 일도 있고 그런거지",
+"next": "talk146"
+},
+
+{
+"id": "talk146",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smileclose", "expression": "neutral", "position": "center" }],
+"text": "예측할 수 없다.....",
+"next": "talk147"
+},
+
+{
+"id": "talk147",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "최아인",
+"characters": [{ "id": "female", "version": "smile", "expression": "neutral", "position": "center" }],
+"text": "난 할 일 있어서 간다! 이따 갈 때 말하고!",
+"next": "talk148"
+},
+
+{
+"id": "talk148",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [{ "id": "female", "version": "smile", "expression": "neutral", "position": "center" }],
+"text": "야...! 잠ㄲ..",
+"next": "talk149"
+},
+
+{
+"id": "talk149",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "",
+"characters": [],
+"text": "(그녀가 멀리 떠난다)",
+"next": "talk150"
+},
+
+{
+"id": "talk150",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [],
+"text": "......이거 먹으라고 할려고 했는데",
+"next": "talk151"
+},
+
+{
+"id": "talk151",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "",
+"characters": [],
+"text": "별거 아니고 어디서나 구할 수 있는 젤리였다",
+"next": "talk152"
+},
+
+{
+"id": "talk152",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "",
+"characters": [],
+"text": "왠지 모르겠지만 주머니에 있었다. 나는 이런거 안 먹어서 줄려고 했는데",
+"next": "talk153"
+},
+
+{
+"id": "talk153",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "player",
+"characters": [],
+"text": "에이, 모르겠다. 잠이나 자자",
+"next": "talk154"
+},
+
+{
+"id": "talk154",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "",
+"characters": [],
+"text": "뭔가 평화롭다",
+"next": "talk155"
+},
+
+{
+"id": "talk155",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "",
+"characters": [],
+"text": "분명 바쁠테지만 그 사이에 역설적이게도 있는 평화",
+"next": "talk156"
+},
+
+{
+"id": "talk156",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "",
+"characters": [],
+"text": "그래. 즐길 수 있을 때 즐기자",
+"next": "talk157"
+},
+
+{
+"id": "talk157",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "",
+"characters": [],
+"text": "어차피 과제는 또 쌓일거고 이를 위한 체력은 필수적인거니까",
+"next": "talk158"
+},
+
+{
+"id": "talk158",
+"act": "school",
+"background": "classroom",
+"tone": "positive",
+"speaker": "",
+"characters": [],
+"text": "체력이라도 보충 해놔서 나중을 위한",
+"next": "talk159"
+},
+
+{
+"id": "talk159",
+"act": "school",
+"background": "dark",
+"tone": "ending",
+"speaker": "????",
+"characters": [],
+"text": "@#`~!#(*",
+"next": "talk160"
+},
+
+{
+"id": "talk160",
+"act": "school",
+"background": "dark",
+"tone": "ending",
+"speaker": "",
+"characters": [],
+"text": "뭐지 누가 날 부르나",
+"next": "talk161"
+},
+
+{
+"id": "talk161",
+"act": "school",
+"background": "dark",
+"tone": "ending",
+"speaker": "",
+"characters": [],
+"text": "(당신은 그 소리에 귀를 기울인다)",
+"next": "talk162"
+},
+
+{
+"id": "talk162",
+"act": "school",
+"background": "dark",
+"tone": "ending",
+"speaker": "",
+"characters": [],
+"text": "(하지만 그 소리가 좋은 것이 아님을 아는데는 얼마 걸리지 않았다)",
+"next": "ending"
+},
+
+{
+"id": "ending",
+"act": "school",
+"background": "dark",
+"tone": "ending",
+"speaker": "",
+"characters": [],
+"text": "to be continued....."
+}
+]
